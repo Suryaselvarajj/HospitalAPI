@@ -1,5 +1,4 @@
 # HospitalAPI
-# HospitalAPI
 
 An API created using NodeJS for doctors to cater to the needs of the patients in the hospital during Covid-19.
 
