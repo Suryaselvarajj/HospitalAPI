@@ -1,7 +1,7 @@
 {
   "name": "hospital-api",
   "version": "1.0.0",
-  "description": "The app is about for doctor to survey covid patient",
+  "description": "Covid patients detail tracking app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
