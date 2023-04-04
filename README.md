@@ -30,7 +30,7 @@ Start the server
 
 ## Documentation
 
-Root Hosted Link -
+Root Hosted Link - https://hospital-report-api-0vsl.onrender.com
 
 Routes :
 
@@ -46,8 +46,9 @@ Data that needs to be sent with a route :
     a. /doctors/register - name, email, password (Form type:x-www-form-urlencoded)
     b. /doctors/login - email, password (Form type:x-www-form-urlencoded).
     c. /patients/register - JWT Token (In Authorization ->choose bearer token & enter valid token), name, phone, age (Form type:x-www-form-urlencoded).
-    d. /patients/:id/create_report - JWT Token (In Authorization ->choose bearer token & enter valid token), Patient's ID , status (Form type:x-www-form-urlencoded).
-    e. /patients/:id/reports - JWT Token (In Authorization ->choose bearer token & enter valid token), Patient's ID.
+    d. /patients/:id/create_report - JWT Token (In Authorization ->choose bearer token & enter valid token), Patient's id , status (Form type:x-www-form-urlencoded). The :id can be copied from mongodb report
+    e. /patients/:id/reports - JWT Token (In Authorization ->choose bearer token & enter valid token), Patient's id.
+    the :id can be copied from mongodb report
     f. /reports/:status - JWT Token (In Authorization ->choose bearer token & enter valid token), status.
 
 Folder Structure
